@@ -76,26 +76,26 @@ p {
     margin: 30px 0;
 }
 
-.container header .top-header {
+header .top-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin: 30px 0;
 }
 
-.container header .top-header .img-container {
+header .top-header .img-container {
     /* border: 1px solid black; */
 }
 
-.container header .top-header .img-container img {
+header .top-header .img-container img {
 
 }
 
-.container header .top-header nav {
+header .top-header nav {
     width: 100%;
 }
 
-.container header nav a {
+header nav a {
     text-decoration: none;
     margin-left: 11%;
     color: black;
