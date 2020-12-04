@@ -30,17 +30,27 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
-Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
+Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+   It's way to create meaning to tags that make it easier to read. Also great for Search Engines, so having Semantic Code looks good for an interviewer and I believe more and more places will start requiring it since it is becoming a legality issue for Screen Readers to use on websites because Semantic HTML is also for accessibility purposes as well.
+
 2. Name two big differences between `display: block;` and `display: inline;`.
+
+   They're both different in how it works with the box model since inline will stay on that specific like and never move like a block element would in an up or down direction. Block usually expands it's width across the page while inline is constricted in its content.
 
 3. What are the 4 areas of the box model?
 
+   content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
+   cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+   Because developers can work on a project simultaneously and merge to the master when completed. Also saving the history of their work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
