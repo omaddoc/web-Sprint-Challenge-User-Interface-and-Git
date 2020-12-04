@@ -54,6 +54,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    /* font-size: 62.5%; */
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +70,35 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.container header {
+    margin: 30px 0;
+}
+
+header .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px 0;
+}
+
+header .top-header .img-container {
+    /* border: 1px solid black; */
+}
+
+header .top-header .img-container img {
+
+}
+
+header .top-header nav {
+    width: 100%;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-left: 11%;
+    color: black;
 }
 
 .top-content {
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +213,42 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE */
+
+.about-page .first-section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.about-page .second-section, .third-section {
+   display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.about-page .content-box {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-right: 3%;
+}
+
+.about-page .content-box .text-container h3 {
+    margin-top: 10px;
+}
+
+.about-page .content-box .text-container .anchor-box {
+    margin-top: 20px;
+}
+
+.about-page .content-box .text-container .anchor-box a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 8px;
+}
+
+.about-page .fourth-section {
+    margin: 40px 0;
 }
