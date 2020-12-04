@@ -214,3 +214,41 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE */
+
+.about-page .first-section {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+.about-page .second-section, .third-section {
+   display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.about-page .content-box {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    margin-right: 3%;
+}
+
+.about-page .content-box .text-container h3 {
+    margin-top: 10px;
+}
+
+.about-page .content-box .text-container .anchor-box {
+    margin-top: 20px;
+}
+
+.about-page .content-box .text-container .anchor-box a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid black;
+    color: black;
+    border-radius: 8px;
+}
+
+.about-page .fourth-section {
+    margin: 40px 0;
+}
